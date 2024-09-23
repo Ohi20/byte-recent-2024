@@ -63,12 +63,12 @@ const AboutSection = () => {
         <div className="flex justify-center items-center ">
           <Image
             src="/images/hero.jpg"
-            className="w-full"
+            className="w-full rounded-lg"
             width={500}
             height={100}
           />
         </div>
-        <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
+        <div className="mt-4 md:mt-0 text-left flex flex-col h-full justify-center items-center">
           <h2 className="text-4xl font-bold text-white mb-4 text-center">
             Who We Are
           </h2>

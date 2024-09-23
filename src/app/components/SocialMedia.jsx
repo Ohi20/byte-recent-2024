@@ -24,7 +24,7 @@ const achievementsList = [
 const SocialMedia = () => {
   return (
     <div className="py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-      <div className="sm:border-[#33353F] sm:border rounded-md py-8 px-16 flex flex-col sm:flex-row items-center justify-between">
+      <div className="sm:border-[#33353F] sm:border rounded-md py-8 px-16 flex flex-col sm:flex-row items-center justify-between ">
         {achievementsList.map((achievement, index) => {
           return (
             <div
@@ -34,9 +34,11 @@ const SocialMedia = () => {
               <Link
                 href={achievement.Link}
                 target="_blank"
-                className="text-[#ADB7BE] text-base"
+                className="text-[#ADB7BE] text-base hover:bg-white  p-2 rounded"
               >
-                <p className="text-[#ADB7BE] text-base">{achievement.Medium}</p>
+                <p className="text-[#ADB7BE] text-base hover:text-black">
+                  {achievement.Medium}
+                </p>
               </Link>
             </div>
           );
