@@ -5,14 +5,14 @@ const EmailSection = () => {
   return (
     <section
       id="contact"
-      className="grid md:grid-cols-2 mt-8 md:mt-8 py-24 gap-4 relative"
+      className="grid md:grid-cols-2 mt-8 md:mt-8 py-24 gap-4 relative font-serif"
     >
       <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
       <div className="z-10">
         <h5 className="text-xl font-bold text-white my-2">
           Let&apos;s Connect
         </h5>
-        <p className="text-[#ADB7BE] mb-4 max-w-md text-xl">
+        <p className="text-[#ADB7BE] mb-4 max-w-md text-xl font-serif">
           We don't just chase likes and shares; we focus on delivering
           measurable outcomes that align with your business goals.
         </p>
@@ -26,9 +26,7 @@ const EmailSection = () => {
             >
               Phone
             </label>
-            <p className="text-2xl font-semibold text-white">
-              +880 1974-041314
-            </p>
+            <p className="text-xl font-semibold text-white">+8801974-041314</p>
           </div>
           <div className="mb-6">
             <label
@@ -37,7 +35,7 @@ const EmailSection = () => {
             >
               Address
             </label>
-            <p className="text-2xl font-semibold text-white">
+            <p className="text-xl font-semibold text-white">
               37/2, Pritom Zaman Tower (Level-1), Purana Paltan, 1000
             </p>
           </div>
@@ -48,7 +46,7 @@ const EmailSection = () => {
             >
               Email
             </label>
-            <p className="text-2xl font-semibold text-white">
+            <p className="text-xl font-semibold text-white">
               byte.digital.bd@gmail.com
             </p>
           </div>

@@ -69,10 +69,10 @@ const AboutSection = () => {
           />
         </div>
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full justify-center items-center">
-          <h2 className="text-4xl font-bold text-white mb-4 text-center">
+          <h2 className="text-4xl font-bold text-white mb-4 text-center font-serif">
             Who We Are
           </h2>
-          <p className="text-base lg:text-lg text-justify">
+          <p className="text-base lg:text-lg text-justify font-serif">
             At Byte, our deep-rooted passion for digital transformation sets us
             apart. We are not just another digital marketing agency, we will be
             your growth partner. Our team of digital experts brings fresh

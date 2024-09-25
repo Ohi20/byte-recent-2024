@@ -5,26 +5,26 @@ import React from "react";
 const achievementsList = [
   {
     Medium: "Facebook",
-    Link: "https://www.facebook.com/ashraf.ohi.1/",
+    Link: "https://www.facebook.com/byte.digital.bd",
   },
   {
     Medium: "Instagram",
-    Link: "https://www.instagram.com/probaad_ahmed_/",
+    Link: "https://www.instagram.com/accounts/login/?hl=en",
   },
   {
     Medium: "LinkedIn",
-    Link: "https://www.linkedin.com/in/ashrafohi/",
+    Link: "https://www.linkedin.com/",
   },
   {
-    Medium: "Github",
-    Link: "https://github.com/Ohi20",
+    Medium: "Twitter",
+    Link: "https://x.com/?lang=en",
   },
 ];
 
 const SocialMedia = () => {
   return (
     <div className="py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-      <div className="sm:border-[#33353F] sm:border rounded-md py-8 px-16 flex flex-col sm:flex-row items-center justify-between ">
+      <div className="sm:border-[#33353F] sm:border rounded-md py-8 px-16 flex flex-col sm:flex-row items-center justify-between font-serif">
         {achievementsList.map((achievement, index) => {
           return (
             <div
