@@ -47,7 +47,7 @@ const ClientsSection = () => {
 
   return (
     <section id="clients">
-      <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
+      <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12 font-serif">
         Clients
       </h2>
 

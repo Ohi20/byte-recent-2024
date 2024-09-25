@@ -8,7 +8,7 @@ const projectsData = [
   {
     id: 1,
     title: "Social Media Marketing",
-    description: "facebook,twitter,instagram,linkedin",
+    description: "facebook, twitter, instagram, linkedin",
     image: "/images/projects/social.jpg",
     tag: ["All", "Services"],
     gitUrl: "https://github.com/Ohi20/3d-Portfolio-2023/tree/main",
@@ -17,7 +17,7 @@ const projectsData = [
   {
     id: 2,
     title: "Content Development",
-    description: "graphics design,logo,video,banner",
+    description: "graphics design, logo, video,banner",
     image: "/images/projects/contendev.jpg",
     tag: ["All", "Development"],
     gitUrl: "https://github.com/Ohi20/Youtube-Clone-2023",
@@ -26,7 +26,7 @@ const projectsData = [
   {
     id: 3,
     title: "Digital Advertising",
-    description: "digital ads,animation,clips,typography",
+    description: "digital ads, animation, clips, typography",
     image: "/images/projects/digitalad.jpg",
     tag: ["All", "Services"],
     gitUrl: "https://github.com/Ohi20/Movie-App-With-REST_API",
@@ -35,7 +35,7 @@ const projectsData = [
   {
     id: 4,
     title: "Web Design and Development",
-    description: "html,css,javascript,react,node",
+    description: "html, css, javascript, react, node",
     image: "/images/projects/webdesign.jpg",
     tag: ["All", "Development"],
     gitUrl: "https://github.com/Ohi20/metaverse-2024",
@@ -44,7 +44,7 @@ const projectsData = [
   {
     id: 5,
     title: "Mobile App",
-    description: "android,apple",
+    description: "android, apple",
     image: "/images/projects/mobileapp.jpg",
     tag: ["All", "Development"],
     gitUrl: "https://github.com/Ohi20/3d-Solar-System",
@@ -53,7 +53,7 @@ const projectsData = [
   {
     id: 6,
     title: "Product Analysis",
-    description: "product photography,product videography",
+    description: "product photography, product videography",
     image: "/images/projects/productphoto.jpg",
     tag: ["All", "Services"],
     gitUrl: "https://github.com/Ohi20/modern-bank-2024",

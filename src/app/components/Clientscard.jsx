@@ -29,8 +29,8 @@ const Clientscard = ({ imgUrl, title, description }) => {
           </Link>
         </div> */}
       </div>
-      <div className="text-white rounded-b-xl mt-3 bg-[#181818]py-6 px-4 font-serif">
-        <h5 className="text-xl font-semibold mb-2">{title}</h5>
+      <div className="text-white rounded-b-xl mt-3 bg-[#181818]py-6 px-4 ">
+        <h5 className="text-xl font-semibold mb-2 font-serif">{title}</h5>
         <p className="text-[#ADB7BE]">{description}</p>
       </div>
     </div>
