@@ -1,51 +1,6 @@
 "use client";
 import React, { useTransition, useState } from "react";
 import Image from "next/image";
-import TabButton from "./TabButton";
-
-const TAB_DATA = [
-  {
-    title: "Skills",
-    id: "skills",
-    content: (
-      <ul className="list-disc pl-2">
-        <li>Node.js</li>
-        <li>Express</li>
-        <li>Reactjs</li>
-        <li>Nextjs</li>
-        <li>JavaScript</li>
-        <li>MongoDB</li>
-        <li>Mongoose</li>
-        <li>NextAuth</li>
-        <li>Firebase</li>
-      </ul>
-    ),
-  },
-  {
-    title: "Education",
-    id: "education",
-    content: (
-      <ul className="list-disc pl-2">
-        <li>B.Sc</li>
-        <li>C.S.E</li>
-        <li>Shanto-Marium University Of Creative Technology</li>
-        <li>United International University</li>
-      </ul>
-    ),
-  },
-  {
-    title: "Certifications",
-    id: "certifications",
-    content: (
-      <ul className="list-disc pl-2">
-        <li>Complete Web Development Course With Jhankar Mahbub</li>
-        <li>Wordpress Training Courses</li>
-        <li>Udemy Nextjs Courses</li>
-        <li>Coursera Backend Web Development</li>
-      </ul>
-    ),
-  },
-];
 
 const AboutSection = () => {
   const [tab, setTab] = useState("skills");
@@ -66,6 +21,7 @@ const AboutSection = () => {
             className="w-full rounded-lg"
             width={500}
             height={100}
+            alt="hero"
           />
         </div>
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full justify-center items-center">
