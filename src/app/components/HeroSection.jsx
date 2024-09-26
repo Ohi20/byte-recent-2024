@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 const HeroSection = () => {
   return (
-    <section className="lg:py-16 mt-20">
+    <section className="lg:py-8 lg:mt-10 mt-20">
       <div className="flex justify-center items-center">
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
@@ -55,13 +55,13 @@ const HeroSection = () => {
             </Link>
           </div> */}
         </motion.div>
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
           className="col-span-4 place-self-center mt-4 lg:mt-0"
         >
-          {/* <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
+          <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
             <Image
               src="/images/hero-image.png"
               alt="hero image"
@@ -69,8 +69,8 @@ const HeroSection = () => {
               width={300}
               height={300}
             />
-          </div> */}
-        </motion.div>
+          </div>
+        </motion.div> */}
       </div>
     </section>
   );

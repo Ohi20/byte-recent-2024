@@ -16,7 +16,7 @@ const EmailSection = () => {
         </p>
       </div>
       <div>
-        <form className="flex flex-col">
+        <form className="flex flex-col border border-[#33353F] p-4 rounded-md bg-[#181818]">
           <div className="mb-6">
             <label
               htmlFor="email"

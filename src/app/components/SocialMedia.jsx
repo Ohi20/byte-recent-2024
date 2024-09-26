@@ -23,8 +23,8 @@ const achievementsList = [
 
 const SocialMedia = () => {
   return (
-    <div className="py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-      <div className="sm:border-[#33353F] sm:border rounded-md py-8 px-16 flex flex-col sm:flex-row items-center justify-between font-serif">
+    <div className="p-8">
+      <div className="bg-[#181818] sm:border-[#33353F] sm:border rounded-md p-8 flex flex-col sm:flex-row items-center justify-between font-serif">
         {achievementsList.map((achievement, index) => {
           return (
             <div
