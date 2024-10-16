@@ -7,8 +7,8 @@ import { TypeAnimation } from "react-type-animation";
 const AboutSection = () => {
   return (
     <section className="text-white" id="whoweare">
-      <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <div className="flex justify-center items-center w-full">
+      <div className="md:grid md:grid-cols-1 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
+        {/* <div className="flex justify-center items-center w-full">
           <Image
             src="/images/hero.jpg"
             className="w-full h-80 rounded-lg"
@@ -16,7 +16,7 @@ const AboutSection = () => {
             height={100}
             alt="hero"
           />
-        </div>
+        </div> */}
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full justify-center items-center">
           <h2 className="text-4xl font-bold text-white mb-4 text-center font-serif">
             Who We Are

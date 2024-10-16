@@ -10,7 +10,7 @@ import Head from "next/head";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col bg-[#121212]">
+    <main className="flex min-h-screen flex-col bg-gradient-to-r from-slate-900 to-slate-700">
       <Head>
         <link rel="icon" href="/favicon.png" />
       </Head>
