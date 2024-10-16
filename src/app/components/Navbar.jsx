@@ -30,10 +30,25 @@ const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
 
   return (
-    <div className="navbar fixed z-10 bg-purple-400 bg-opacity-20">
+    <div className="navbar fixed z-10 bg-[#3C3D37] bg-opacity-20 top-0 left-0 right-0">
       <div className="navbar-start">
-        <div className="dropdown">
-          <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+        <Link className="ml-8" href={"/"}>
+          <Image
+            src={bytepng1}
+            className=" "
+            width={60}
+            height={60}
+            alt="Byte"
+          />
+        </Link>
+      </div>
+      <div className="navbar-end">
+        <div className="dropdown dropdown-end mobile-menu mr-8">
+          <div
+            tabIndex={0}
+            role="button"
+            className="btn btn-ghost text-white lg:hidden"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5"
@@ -51,28 +66,16 @@ const Navbar = () => {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+            className="menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-52 p-2 shadow bg-[#3C3D37] bg-opacity-40"
           >
             {navLinks.map((link, index) => (
-              <li className="font-serif" key={index}>
+              <li className="text-black flex justify-center" key={index}>
                 <NavLink href={link.path} title={link.title} />
               </li>
             ))}
           </ul>
         </div>
-
-        <Link className=" " href={"/"}>
-          <Image
-            src={bytepng1}
-            className=" "
-            width={80}
-            height={80}
-            alt="Byte"
-          />
-        </Link>
-      </div>
-      <div className="navbar-end hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">
+        <ul className="menu menu-horizontal hidden lg:flex mr-8 px-1">
           {navLinks.map((link, index) => (
             <li className="font-serif" key={index}>
               <NavLink href={link.path} title={link.title} />

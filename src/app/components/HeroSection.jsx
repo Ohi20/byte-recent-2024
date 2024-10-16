@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 const HeroSection = () => {
   return (
-    <section className="lg:py-8 lg:mt-10 mt-20">
+    <section className="mb-4 lg:mt-16 lg:mb-20">
       <div className="flex justify-center items-center">
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
@@ -32,7 +32,7 @@ const HeroSection = () => {
               repeat={Infinity}
             />
           </h1>
-          <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl text-center font-serif">
+          <p className="text-[#ADB7BE] font-semibold text-base sm:text-lg mb-6 lg:text-xl text-center font-serif">
             Ignite Your Digital Presence and Unlock Your Brand's Potential with
             us.
           </p>

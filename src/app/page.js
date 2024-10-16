@@ -15,7 +15,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.png" />
       </Head>
       <Navbar />
-      <div className="container mt-24 mx-auto px-12 py-4">
+      <div className="container mx-auto px-12 py-20 lg:py-10">
         <HeroSection />
         <AboutSection />
         <ProjectsSection />

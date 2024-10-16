@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 
@@ -35,16 +34,15 @@ const AboutSection = () => {
                 repeat={Infinity}
               />
             </div>
-            <div className="border border-[#33353F] bg-[#181818] rounded-md p-2">
-              <p className="text-base text-[#ADB7BE] lg:text-lg text-justify content-center  font-semibold  font-serif break-all">
-                At Byte,our deep-rooted passion for digital transformation sets
-                us apart.We are not just another digital marketing agency,we
-                will be your growth partner.Our team of digital experts brings
-                fresh perspectives and innovative strategies to your business.By
-                combining data-driven insights with creative solutions,we
-                deliver measurable results.
-              </p>
-            </div>
+
+            <p className="text-base text-[#ADB7BE] lg:text-lg text-justify content-center  font-semibold  font-serif">
+              At Byte, our deep-rooted passion for digital transformation sets
+              us apart. We are not just another digital marketing agency, we
+              will be your growth partner. Our team of digital experts brings
+              fresh perspectives and innovative strategies to your business. By
+              combining data-driven insights with creative solutions, we deliver
+              measurable results.
+            </p>
           </motion.div>
         </div>
       </div>
